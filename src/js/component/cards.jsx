@@ -3,9 +3,10 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import cardImage from "../../img/rigo-baby.jpg";
-import ThemeProvider from 'react-bootstrap/ThemeProvider'
+import ThemeProvider from 'react-bootstrap/ThemeProvider';
 
-function BasicExample() {
+function BasicExample(props) {
+
   return (
     <ThemeProvider
   breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']}
@@ -13,7 +14,7 @@ function BasicExample() {
 >
 
 <Container>
-      <Card >
+      <Card className = {props.class}>
         <Card.Img className="imgSize" variant="top" src={cardImage} />
         <Card.Body className="cardsAlign">
           <Card.Title>Card Title</Card.Title>
