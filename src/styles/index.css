@@ -49,6 +49,9 @@ body {
     margin-top: 4%;
 }
 
+.card {
+    border: none;
+}
 
 .cards-section {
     width: 100%;
@@ -104,19 +107,19 @@ body {
 /*CARDS COLORS*/
 
 .red {
-    background: #fd5959 !important;
+    background: #fd7979 !important;
 }
 
 .blue {
-    background: #ff9a3c !important;
+    background: #ffab5c !important;
 }
 
 .green {
-    background: #a3de83 !important;
+    background: #b9f399 !important;
 }
 
 .yellow {
-    background: #58b3d3 !important;
+    background: #99dcf5 !important;
 }
 
 @media screen and (max-width: 600px) {

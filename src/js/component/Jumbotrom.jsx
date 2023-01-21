@@ -9,14 +9,12 @@ function StaticExample() {
       <h2  className="intro-title">A Warm Welcome!</h2>
       <Modal.Body>
         <p className="intro-paragraph">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam.
+          First steps with React js. Using components to create a websites structure and bootstrap for the visual appealling 
         </p>
       </Modal.Body>
       <Modal.Footer className="justify-content-start">
           <Button variant="primary">
-            Call to action!
+            Comming Soon!
           </Button>
         </Modal.Footer>
     </Modal.Dialog>
